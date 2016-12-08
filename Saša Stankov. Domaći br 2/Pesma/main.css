@@ -1,0 +1,60 @@
+body {
+	text-align: center;
+	background-color: #ECF0F1;
+
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 25px;
+	color: black;
+	line-height: 1.4;
+}
+
+.text-edit {
+	font-family: "Impact", sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #E7573C;
+	font-family: serif;
+	font-family: "Arial Black", sans-serif;
+}
+
+h1:hover {
+	color: white;
+}
+
+h4 {
+	color: green;
+	font-size: 30px;
+}
+
+img {
+	border-radius: 1%;
+	border: 10px solid white;
+	opacity: 0.8;
+	width: 20%;
+	height: 20%;
+}
+
+img:hover {
+	opacity: 1;
+	border-color: #E7573C;
+	width: 25%;
+	height: 25%;
+}
+
+.pe3 {
+	color: orange;
+}
+
+.nemsi {
+	color: red;
+	font-size: 20px;
+}
+
+.lol {
+	font-size: 40px;
+}

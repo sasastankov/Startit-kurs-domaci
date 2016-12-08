@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+	background-color: lightblue;
+	font-style: italic;
+}
+
+p {
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	color: green;
+	border-style: groove;
+	font-weight: bold;
+}
+
+.tekst {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
+} 
+
+.vhs {
+	color: brown;
+}
+
+.brb {
+	color: blue;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 40px;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #242424;
+	font-family: Arial, sans-serif;
+	border-style: solid;
+	font-size: 30px
+}
+
+h3:hover {
+	color: white;
+}
