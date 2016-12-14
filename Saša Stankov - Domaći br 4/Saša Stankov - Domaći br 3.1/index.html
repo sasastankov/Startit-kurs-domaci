@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<title>Moja forma</title>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<form id="form-group" action="">
+
+			<label for="SenderName">Name:</label> <br>
+			<input type="text" name="SenderName" id="SenderName" placeholder="John" required><br>
+
+			<label for="SenderSecondName">Last name:</label><br>
+			<input type="text" name="SenderLastName" id="SenderLastName" placeholder="Smith" required><br>
+
+			<label for="SenderEmail">E-mail:</label><br>
+			<input type="email" name="SenderEmail" id="SenderEmail" placeholder="example@mail.com" required><br>
+
+			<label for="SenderAge">Age:</label><br>
+			<input type="number" name="SenderAge" id="SenderAge" placeholder="23"><br>
+
+			Male<input type="radio" name="UserGender" value="male">
+			Female<input type="radio" name="UserGender" value="female"><br>
+
+			S<input type="checkbox" name="UserSize" value="small" required> 
+			M<input type="checkbox" name="UserSize" value="medium" required> 
+			L<input type="checkbox" name="UserSize" value="large" required><br>
+
+			<textarea name="SenderMessage" required placeholder="Your message..."></textarea><br>
+
+			<input type="submit" value="Send">
+
+		</form>
+	</div>
+	
+</body>
+</html>
