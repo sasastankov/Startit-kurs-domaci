@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	background-color: #f5f4f3;
+}
+
+.container {
+	width: 1140px;
+	margin: 50px auto;
+	padding: 0 30px;
+}
+
+.col-33p {
+	width: 33,333%;
+	float: left;
+}
+
+article {
+	padding: 0 15px;
+}
+
+img {
+	width: 350px;
+	height: 240px;
+}
+
+article div {
+	background: white;
+    height: 108px;
+    display: table;
+    width: 100%;
+    margin: -112px 0 0 0;
+    position: relative;
+
+}
+
+h4 {
+	margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    z-index: 9;
+}
+
+.circle-icon-1, .circle-icon-2, .circle-icon-3 {
+	width: 104px;
+    height: 104px;
+    background-color: white;
+    margin: -135px auto 0;
+    display: block;
+    border-radius: 100%;
+    position: relative;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center 20px;
+}
+
+.circle-icon-1 {
+	background-image: url(http://www.icon100.com/up/3977/256/55-Apple-symbol.png);
+}
+
+.circle-icon-2 {
+	background-image: url(http://www.icon100.com/up/3977/256/55-Apple-symbol.png);	
+}
+
+.circle-icon-3 {
+	background-image: url(http://www.icon100.com/up/3977/256/55-Apple-symbol.png);
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
